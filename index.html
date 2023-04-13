@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CLobe Tailwind Css Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="relative z-50 w-full h-24">
+        <div
+            class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
+
+            <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
+                <span class="ml-3 text-xl text-gray-800">Coble<span class="text-pink-500">.</span></span>
+            </a>
+
+            <nav id="nav"
+                class="absolute top-0 left-0 z-50 flex flex-col items-center justify-between hidden w-full h-64 pt-5 mt-24 text-sm text-gray-800 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative">
+                <a href="#"
+                    class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Platform</a>
+                <a href="#features"
+                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Company</a>
+                <a href="#pricing"
+                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Pricing</a>
+                <a href="#testimonials" class="font-bold duration-100 transition-color hover:text-indigo-600">Marketing
+                    Talent</a>
+                <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
+                    <a href="#_" class="w-full py-2 font-bold text-center text-pink-500">Login</a>
+                    <a href="#_"
+                        class="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-indigo-700 fold-bold">Get
+                        Started</a>
+                </div>
+            </nav>
+
+            <div
+                class="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
+                <a href="#_"
+                    class="relative z-40 px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 lg:text-gray-900 sm:mr-3 md:mt-0">Login</a>
+                <a href="#_"
+                    class="relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-indigo-700 rounded border shadow-md fold-bold lg:bg-white lg:text-indigo-700 sm:w-full lg:shadow-none hover:shadow-xl">Get
+                    Started</a>
+                <svg class="absolute top-0 left-0 hidden w-screen max-w-3xl -mt-64 -ml-12 lg:block"
+                    viewBox="0 0 818 815" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="c">
+                            <stop stop-color="#E614F2" offset="0%" />
+                            <stop stop-color="#FC3832" offset="100%" />
+                        </linearGradient>
+                        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="f">
+                            <stop stop-color="#657DE9" offset="0%" />
+                            <stop stop-color="#1C0FD7" offset="100%" />
+                        </linearGradient>
+                        <filter x="-4.7%" y="-3.3%" width="109.3%" height="109.3%" filterUnits="objectBoundingBox"
+                            id="a">
+                            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" in="shadowBlurOuter1" />
+                        </filter>
+                        <filter x="-4.7%" y="-3.3%" width="109.3%" height="109.3%" filterUnits="objectBoundingBox"
+                            id="d">
+                            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" />
+                        </filter>
+                        <path
+                            d="M160.52 108.243h497.445c17.83 0 24.296 1.856 30.814 5.342 6.519 3.486 11.635 8.602 15.12 15.12 3.487 6.52 5.344 12.985 5.344 30.815v497.445c0 17.83-1.857 24.296-5.343 30.814-3.486 6.519-8.602 11.635-15.12 15.12-6.52 3.487-12.985 5.344-30.815 5.344H160.52c-17.83 0-24.296-1.857-30.814-5.343-6.519-3.486-11.635-8.602-15.12-15.12-3.487-6.52-5.343-12.985-5.343-30.815V159.52c0-17.83 1.856-24.296 5.342-30.814 3.486-6.519 8.602-11.635 15.12-15.12 6.52-3.487 12.985-5.343 30.815-5.343z"
+                            id="b" />
+                        <path
+                            d="M159.107 107.829H656.55c17.83 0 24.296 1.856 30.815 5.342 6.518 3.487 11.634 8.602 15.12 15.12 3.486 6.52 5.343 12.985 5.343 30.816V656.55c0 17.83-1.857 24.296-5.343 30.815-3.486 6.518-8.602 11.634-15.12 15.12-6.519 3.486-12.985 5.343-30.815 5.343H159.107c-17.83 0-24.297-1.857-30.815-5.343-6.519-3.486-11.634-8.602-15.12-15.12-3.487-6.519-5.343-12.985-5.343-30.815V159.107c0-17.83 1.856-24.297 5.342-30.815 3.487-6.519 8.602-11.634 15.12-15.12 6.52-3.487 12.985-5.343 30.816-5.343z"
+                            id="e" />
+                    </defs>
+
+                </svg>
+            </div>
+
+            <div id="nav-mobile-btn"
+                class="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
+                <span class="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
+                <span class="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- hero-section -->
+        <section class="hero-section text-gray-600 body-font">
+            <div class="hero container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-4">
+                    <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">Work With The Best <br>
+                        Marketers For Your Business</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">World-class marketing freelancers and micro
+                        agencies, vetted based on proven results, not sales pitches. The challenge of assessing
+                        marketers</p>
+                </div>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-gray-950 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get
+                        started</button>
+                    <button
+                        class="ml-4 inline-flex text-gray-700  border py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Let's
+                        Talk</button>
+                </div>
+                <p class="text-center mt-2">A platform for hiring on-demand marketing talent</p>
+                <img class="mx-auto mt-8" src="images/Group 65.png" alt="">
+                <p class="text-center mt-8 mb-4">Trusted by forward-thinking companies who value ease of use over
+                    complexity:</p>
+                <div class="images mt-12 px-24">
+                    <div class="img flex">
+                        <img class="mx-auto" src="images/Group.png" alt="">
+                        <img class="mx-auto" src="images/Group (1).png" alt="">
+                        <img class="mx-auto" src="images/Group (1).png" alt="">
+                        <img class="mx-auto" src="images/Group (2).png" alt="">
+                        <img class="mx-auto" src="images/Group (3).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- chalenging section -->
+        <section class="chalenging-section text-gray-600 bg-gray-100 body-font mt-12">
+            <div class="text-gray-600 body-font overflow-hidden">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                            src="images/Group 71.png">
+                        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 flex items-center lg:mt-0">
+                            <div>
+                                <h5 class="text-2xl">The challenge</h5>
+                                <h2 class="text-4xl mt-2 mb-2">Skip the big promises
+                                    Hire marketing experts based on data</h2>
+                                <p>The challenge of assessing marketers skills is real. With Coble you don't need to
+                                    rely on
+                                    reviews and fancy sales pitches.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- expert-section -->
+        <section class="expert-section mt-24">
+            <div class="expert">
+                <h5 class="text-center font-medium ">Marketing Expert</h5>
+                <h2 class="text-center text-4xl font-medium mt-4 mb-4">We're here to help your <br> business grow</h2>
+                <p class="text-center">We check their actual past work, account structure, A/B testing <br>
+                    methodologies, and 100+ other criteria.</p>
+                <div class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-36 py-24 md:flex-row flex-col items-center">
+                        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                            <img class="object-cover object-center rounded mx-auto" alt="hero"
+                                src="images/Group 112.png">
+                        </div>
+                        <div
+                            class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                            <h4 class="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-900">Step 1: Tell us
+                                about your business
+                            </h4>
+                            <p class="mb-8 leading-relaxed">Launching a new product? Wanting to improve ROAS? Need to
+                                scale new customer acquisition? Let us know exactly what you need.</p>
+                            <h4 class="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-900">Step 2: Get
+                                matched
+                            </h4>
+                            <h4 class="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-900">Step 3: Manage
+                                your experts
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- leading-section -->
+        <section class="leading-section bg-slate-950">
+            <div class="text-gray-300 body-font">
+                <div class="container mx-auto flex px-36 py-8 md:flex-row flex-col items-center">
+                    <div
+                        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-300">Leading businesses
+                            expand their marketing teams with Coble
+                        </h1>
+                        <p class="mb-8 leading-relaxed">Our AI will tap into our 600+ global network of exhaustively
+                            vetted experts to identify the perfect match to seamlessly integrate.</p>
+                        <h5 class="font-medium">Learn more about security</h5>
+                    </div>
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                        <img class="object-cover object-center rounded" alt="hero" src="images/wholesale group.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- result-section -->
+        <section class="text-gray-600 body-font mb-10">
+            <div class="container mx-auto flex px-36 py-24 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded" alt="hero" src="images/Screenshot_1.png">
+                </div>
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Only the marketers who
+                        have achieved above-benchmark results</h1>
+                    <p class="mb-8 leading-relaxed">We actually look into our experts’ accounts with view-only access or
+                        screen-sharing, to see with our own eyes that they are as good as they say they are.
+                        We actually look into our experts’ accounts with view-only access or screen-sharing.</p>
+                    <h5 class="font-medium">Learn more about security</h5>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact-section -->
+        <section class="contact-section mb-8">
+            <h2 class="text-center text-3xl font-medium mb-4">How Do We Vet The Top</h2>
+            <p class="text-center">Is creating contracts in Word and exchanging PDFs via email the best way</p>
+            <div class="text-gray-600 body-font overflow-hidden">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                            src="images/Rectangle 7.png">
+                        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-10 lg:mt-0">
+                            <p>“Coble’s matching process takes into account so many variables that I wouldn't even have
+                                thought of when trying to hire a marketing agency ”</p>
+
+                            <img class="mt-24 mb-2" src="images/Bixby_(virtual_assistant)-Logo.wine 1.png" alt="">
+                            <p>Victor Henning
+                                Ph.D. Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- business-section -->
+        <section class="business-section">
+            <div class="hero container py-16 rounded mx-auto text-white bg-indigo-600">
+                <div class="flex flex-col text-center w-full mb-4 ">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Grow Your Business with Coble</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">No payment required until you approve your
+                        expert.</p>
+                </div>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-slate-950 border-0 py-2 px-6 focus:outline-none  rounded text-lg">Get
+                        Started</button>
+                    <button
+                        class="ml-4 inline-flex text-gray-700 border-2 text-white py-2 px-6 focus:outline-none rounded text-lg">Let's
+                        Talk</button>
+                </div>
+                <div class="flex mx-auto justify-center mt-10">
+                    <p class="mr-12">No credit card required</p>
+                    <p>No credit card required</p>
+                </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="text-gray-600 body-font px-24">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <span class="ml-3 text-xl">Coble.</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-500">15 West 38 Street MB <br>
+                    New York, NY, US. <br>
+                    Giv'atayim, Israel.</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Product
+
+
+                    </h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Platform</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Overview</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Data-based</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Company
+                    </h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">vs Agencies</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">vs Freelancers</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Pricing
+
+
+                    </h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Paid advertising</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Email marketing</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">SEO</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Legal
+                    </h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Privacy</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Legal Notice</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Terms of use</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 UIHUT. All rights reserved.
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="ml-3 text-gray-500 mr-2">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
